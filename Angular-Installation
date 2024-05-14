@@ -1,1 +1,15 @@
+npm install -g @angular/cli (mac or linux --sudo)
 
+ng new my-first-project --no-strict --standalone false --routing false
+
+SSR N
+
+cd my-first-project
+
+ng serve
+npm start
+
+(update CLI)
+npm uninstall -g angular-cli @angular/cli
+npm cache verify
+npm install -g @angular/cli
